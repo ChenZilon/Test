@@ -1,0 +1,278 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 130px;
+}
+#main_top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 500px;
+	background-image: linear-gradient(to right, rgb(255,102,24) ,rgb(254,37,28));
+}
+.uname{
+	margin-left: 5%;
+	display: flex;
+}
+.uname_font{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 30px;
+	/* align-items: center; */
+}
+.uname_font p:first-child{
+	font-size: 60px;
+	color: white;
+	margin-bottom: 30px;
+}
+.uname_font p:last-child{
+	width: 150px;
+	height: 50px;
+	background-color: white;
+	color: red;
+	line-height: 50px;
+	font-size: 40px;
+	position: relative;
+	text-align: center;
+	margin-left: 30px;
+	border-radius: 40px;
+}
+.uname .uname_font .icon-Sh{
+	position: absolute;
+	top: -2px;
+	left: -28px;
+	border-radius: 50%;
+	background-color: white;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	color: rgb(255,102,24);
+	font-size: 38px;
+}
+.config{
+	margin-right: 5%;
+}
+.config p{
+	width: 180px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 40px;
+	background-color: white;
+	border-radius: 40px;
+	
+}
+.config .icon-ic_setting{
+	font-size: 40px;
+	color: red;
+}
+.config a{
+	color: red;
+	text-decoration: none;
+}
+.nav{
+	display: flex;
+	border-bottom: 1px solid #ccc;
+	flex-direction: column;
+}
+.nav_top{
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 5%;
+}
+.nav_top p:first-child{
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(51,51,51);
+}
+.nav_top p:last-child{
+	font-size: 35px;
+}
+.nav_top a{
+	text-decoration: none;
+	color: rgb(171,171,171);
+}
+.icon-iconfontjiantou5{
+	font-size: 34px;
+	color: rgb(171,171,171)
+}
+.nav_ulbox{
+	margin-bottom: 40px;
+}
+.nav_ulbox ul{
+	display: flex;
+	align-items: center;
+}
+.nav_ulbox ul li{
+	flex: 1;
+}
+.nav_shop{
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	text-decoration: none;
+}
+.nav_shop p{
+	font-size: 40px;
+}
+/* .nav_shop .iconfont::before{
+	color: rgb(255,102,24);
+	font-size: 80px;
+} */
+.nav_shop span{
+	color: rgb(255,102,24);
+	font-size: 80px;
+	margin-bottom: 10px;
+}
+.myitems{
+	border-top: 1px solid #ccc;
+}
+.myitems ul{
+	display: flex;
+	flex-direction: column;
+}
+.myitems ul li{
+	border-bottom: 1px solid #ccc;
+	height: 130px;
+	display: flex;
+	align-items: center;
+}
+.myitems_abox{
+	flex: 1;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 5%;
+	text-decoration: none;
+}
+.icon-wodeyue{
+	font-size: 50px;
+	color: rgb(0,179,239);
+}
+.icon-quan{
+	font-size: 50px;
+	color: rgb(255,118,27);
+}
+.icon-xinxi{
+	font-size: 50px;
+	color: rgb(41,204,123);
+}
+.icon-xingzhuang60kaobei2{
+	font-size: 50px;
+	color: rgb(255,157,27);
+}
+.icon-bangzhudisc{
+	font-size: 50px;
+	color: rgb(98,138,250);
+}
+.myitems_abox p:first-child{
+	font-size: 50px;
+	color: #000000;
+}
+.myitems_abox p:last-child{
+	font-size: 40px;
+	color: #ccc;
+}
+
+.footer-nav{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0 10px 50px;
+	color: #666666;
+	background-color: white;
+}
+.footer-nav ul{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-nav ul li a{
+	color: gray;
+	text-decoration: none;
+}
+.footer-nav ul li p{
+	margin-top: 5px;
+}
+.footer-nav ul li{
+	flex: 1;
+	color: #ccc;
+	margin: 20px 0;
+	font-size: 42px;
+}
+.footer-navbox{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer-nav .icon-gowuche{
+	font-size: 55px;
+	color: #ccc;
+}
+.footer-nav .icon-shoye{
+	font-size: 55px;
+	color: #ccc;
+}
+.footer-nav .icon-leimupinleifenleileibie{
+	font-size: 55px;
+	color: #ccc;
+}
+.footer-nav .icon-wd{
+	font-size: 55px;
+	color: red;
+}
+#font-red{
+	color: red;
+}

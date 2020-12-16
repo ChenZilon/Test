@@ -1,0 +1,144 @@
+
+
+.swap{
+	width: 98%;
+	margin-left: 1%;
+}
+
+.top_tittle{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+.top_tittle h1{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.top_tittle span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1.25rem;
+}
+
+.commend_nr{
+	margin-top: 20px;
+	
+}
+
+.commend_nr p{
+	font-size: 0.875rem;
+	margin-left: 4%;
+	line-height: 30px;
+	}
+
+.commend_nr textarea{
+	width: 90%;
+	height: 120px;
+	resize: none;
+	background-color: #f8f8f8;
+	border: none;
+	border: 1px solid aqua;
+	border-radius: 10px;
+	margin-left: 5%;
+	/* text-indent: 2em; */
+}
+
+
+
+.show_goodsimg>p{
+	margin-top: 20px;
+	font-size: 0.875rem;
+	
+}
+
+.show_goodsimg{
+	margin-left: 4%;
+	overflow: hidden;
+}
+
+.btn_img{
+	margin-top: 20px;
+	margin-left: 4%;
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	background: url(../images/commend_images/MALL%20–%2015@3x.png) no-repeat 28px 20px;
+	background-size: 40px 40px;
+	/* vertical-align: center; */
+	border: 1px dashed #23c6c8;
+	/* background-color: #23c6c8; */
+	color: #fff;
+	border-radius: 3px ;
+	text-align: center;
+}
+
+
+
+.btn_img input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.btn_box{
+	float: left;
+	/* overflow: hidden; */
+	position: relative;
+	margin-left: 20px;
+}
+
+.btn_box>span{
+	width: 60px;
+	font-size: 12px;
+	position: absolute;
+	bottom: 20px;
+	/* right:auto; */
+	left:30px;
+	color: cadetblue;
+}
+
+.goods_garde{
+	margin-left: 4%;
+	display: flex;
+	margin-top: 20px;
+}
+
+.icon-goods_garde{
+	color: orangered;
+	margin-left: 20px;
+}
+
+
+.footer_sub{
+	margin-top: 40px;
+	width: 80%;
+	margin-left: 10%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: orangered;
+}
+
+.footer_sub input{
+	width: 100%;
+	border: none;
+	background: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+

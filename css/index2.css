@@ -1,0 +1,147 @@
+.top{
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	position: relative;
+	background: white;
+}
+.top h3{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.top img{
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}
+.banner ul {
+	display: flex;
+	justify-content: space-around;
+}
+.banner ul li a{
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 700;
+}
+.banner{
+	height: 40px;
+	margin-bottom: 5px;
+}
+.banner ul li a:hover{
+	color: red;
+	/* border-bottom:2px solid red; */
+	
+}
+.banner ul li:first-child a{
+	color: red;
+	border-bottom: 2px solid red;
+}
+.nr{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.nr_1{
+	display: flex;
+	height: 30px;
+	position:relative;
+	width: 100%;
+	padding-bottom: 10px;
+	border-bottom: #7E8C8D 1px solid;
+}
+.nr_1 p{
+	line-height: 30px;
+	margin-left: 25px;
+}
+.p1{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.nr_1 img{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	right: 0;
+	top: 2px;
+}
+.shangpin{
+	margin-top: 10px;
+	display: flex;
+	position: relative;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #7E8C8D ;
+}
+.tp{
+	width:150px;
+	margin-left: 2%;
+}
+.tp2{
+	width: 100%;
+	height: 150px;	
+}
+.js{
+	width: 40%;
+	margin-left: 5%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.js h4{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.jg{
+
+	height: 20px;
+	bottom: 5px;
+	position: absolute;
+	right: 20px;
+}
+.nr_3{
+	
+	margin-top: 10px;
+	height: 30px;
+	border-bottom: 1px solid #7E8C8D ;
+}
+.nr_3{
+	text-align: right;
+}
+.nr_3 a{
+	color: red;
+}
+.nr_4{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin-top: 20px;
+	
+}
+.qx{
+	height: 30px;
+	width: 100px;
+	border: 1px solid #7E8C8D;
+	line-height: 30px;
+	text-align: center;
+	margin-right:20px ;
+	border-radius: 20px;
+}
+.fk{
+	height: 30px;
+	width: 100px;
+	border: 1px solid red;
+	line-height: 30px;
+	text-align: center;
+	margin-right:20px ;
+	border-radius: 20px;
+	background-color: red;
+	color: white;
+}
+.fk a{
+	color: white;
+}

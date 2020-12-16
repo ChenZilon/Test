@@ -1,0 +1,102 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border: none;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    text-align: center;
+    display: flex;
+
+}
+
+.arrowleft {
+    font-size: 30px;
+    color: rgb(119, 119, 119);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.top h2 {
+    line-height: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.wrap {
+    margin-top: 13%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+
+.cost {
+    height: 100px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px dashed rgb(245,245,245);
+}
+
+.cost p:nth-child(1){
+    /* font-size: 50px; */
+    font-family: "宋体";
+    margin-bottom: 20px;
+    /* width: 100%; */
+    /* text-align: center; */
+    /* line-height: 60px; */
+}
+.cost p:nth-child(2){
+    color: gray;
+    font-weight: bold;
+    font-size: 30px;
+    /* margin-top: 10px; */
+}
+.wrap ul{
+    margin-top: 20px;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.wrap ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap ul li p{
+    line-height: 40px;
+    color: gray;
+    font-size: 13px;
+}
+.wrap .contact_us{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 14px;
+}

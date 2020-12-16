@@ -1,0 +1,87 @@
+.top{
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	position: relative;
+	background: white;
+}
+.top h3{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.top img{
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}	
+.yfje_1{
+	width:200px ;
+	margin: 75px auto;
+	text-align: center;
+}
+.yfje_1 p{
+	font-size: 18px;
+}
+.yfje_1 h3{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 5px;
+	color: red;
+}
+.xz{
+	margin-left: 15px;
+	font-size: 18px;
+	color: #7E8C8D;
+}
+.xzfs ul li h3{
+	margin-left: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.xzfs{
+	position: relative;
+	margin-top: 30px;
+}
+.zhifu{
+	position: absolute;
+	display: block;
+	margin-left: 10px;
+}
+
+.xuan{
+	position:relative;
+}
+.ljfk{
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+.ljfk_1{
+	height: 50px;
+	border: 1px solid red;
+	width: 200px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	font-size: 18px;
+	background-image: linear-gradient(to right,#ff6f18 ,red);
+}
+.bottom{
+	margin-top: 50px;
+}
+.xzfs ul li{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.xz p{
+	margin: 0 auto;
+}
+.nar{
+	margin: 0 auto;
+	width: 70%;
+}

@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-color: rgb(245,245,245);
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 180px;
+}
+.card_top{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: white;
+}
+.card_top p:first-of-type{
+	font-size: 60px;
+	font-weight: bold;
+}
+.card_top a{
+	text-decoration: none;
+}
+.card_top p:last-child{
+	position: absolute;
+	font-size: 40px;
+	right: 5%;
+	top: 60px;
+}
+.card_top p>a{
+	color: #333333;
+}
+.card_top .icon-arrowLeft{
+	position: absolute;
+	left: 5%;
+	top: 45px;
+	font-size: 60px;
+	color: #666666;
+}
+.moth_about{
+	border-bottom: 1px solid #ccc;
+	background-color: white;
+}
+.moth_about ul{
+	display: flex;
+}
+.moth_about ul li{
+	flex: 1;
+	font-size: 40px;
+	display: flex;
+	height: 140px;
+	color: red;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+.moth_about ul li:first-child{
+	border-bottom: 6px solid red;
+}
+.moth_befor{
+	display: block;
+	text-decoration: none;
+	color: gray;
+}
+.coupon ul{
+	display: flex;
+	flex-direction: column;
+}
+.coupon ul li{
+	margin: 0 5%;
+	margin-top: 30px;
+}
+.coupon_one{
+	display: flex;
+	height: 250px;
+}
+.money{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-right: 4px dashed #ccc;
+	border-radius: 30px;
+	flex: 3;
+}
+.money p{
+	font-size: 60px;
+}
+.coupon_name{
+	display: flex;
+	flex: 7;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	background-color: white;
+	position: relative;
+}
+.coupon_name label:after {   
+    content: '';   
+    width: 20px;   
+    height: 20px;   
+    position: absolute;   
+    top: 108px;   
+    right: 30px;
+	border-radius: 50%;
+    opacity: 0; 
+}
+.coupon_name input[type=checkbox]:checked + label:after {   
+    opacity: 1;   
+}   
+.coupon_flexson p:first-child{
+	font-size: 40px;
+	color: #222222;
+	font-weight: bold;
+}
+.coupon_flexson p{
+	font-size: 30px;
+	color: #666666;
+	line-height: 60px;
+}
+.option{
+	position: relative;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.option_button{
+	border: none;
+	position: absolute;
+	top: 90px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+}
+.gray{
+	color: gray;
+}
+.red{
+	color: red;
+}
+.footer_option{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_left{
+	flex: 1;
+	background-color: white;
+	line-height: 180px;
+	font-size: 50px;
+}
+.footer_check{
+	width: 40px;
+	height: 40px;
+	margin-left: 40px;
+	margin-right: 20px;
+}
+.footer_right{
+	flex: 1;
+	display: flex;
+}
+
+.del_option{
+	flex: 1;
+	background: linear-gradient(to right, rgb(255,111,24), rgb(254,36,29));
+	font-size: 60px;
+	color: white;
+}

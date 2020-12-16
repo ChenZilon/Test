@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="./css/my_balance.css">
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<a href="mine.html" class="iconfont icon-arrowLeft-fill arrowleft">
+				&#xe638;
+			</a>
+			<h2>我的余额</h2>
+			<a href="bill_details.html">账户明细</a>
+		</div>
+		<div class="wrap">
+			<div class="remain">
+				
+					<p>剩余金额（元）</p>
+					<p style="font-size: 30px; font-weight: bold;">702421.00</p>
+			</div>
+			<div class="costs">
+				<ul>
+					<li>
+						<p style="font-size: 13px; color: rgb(242,178,139); ">本月消费</p>
+						<p style="font-weight: bold;">1200.09</p>
+					</li>
+					<li>
+						<p style="font-size: 13px; color: rgb(242,178,139);">累计消费</p>
+						<p style="font-weight: bold;">810010.09</p>
+					</li>
+				</ul>
+			</div>
+			<div class="lately_bill">
+				<div class="">
+					<span class="iconfont icon-icon--"style="font-size: ;">&#xe757;</span><span>最近两笔账单</span>
+				</div>
+				<div class="">
+					<a href="bill_details.html" style="color:gray;">全部<span class="iconfont icon-jiantou">&#xe619;</span></a>
+				</div>
+			</div>
+			<div class="bill">
+				<ul>
+					<li>
+						<a href="bill_information1.html">
+						<div class="bill_div1">
+							<p>周日</p>
+							<p>08/20</p>
+						</div>
+						<div class="iconfont icon-chongzhi bill_div2"></div>
+						<div class="bill_div3">
+							
+							<p>充值</p>
+							<p>来自天地银行（6245）</p>
+						</div>
+						<div class="bill_div4">
+							<p style="color: rgb(102,102,102);">+2470</p>
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="bill_information2.html">
+						<div class="bill_div1">
+							<p>周五</p>
+							<p>08/18</p>
+						</div>
+						<div class="iconfont icon-xiaofei01 bill_div2"></div>
+						<div class="bill_div3">
+							
+							<p>消费</p>
+							<p>购买铝合金拉杆箱万轮轴</p>
+						</div>
+						<div class="bill_div4">
+							<p style="color: red;">-700</p>
+						</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<form class="recharge">
+				<input type="button" name="cz" value="充值" class="cz" style="color: white;font-size: 18px;" onclick='location.href=("recharge.html")'/>
+			</form>
+		</div>
+	</body>
+</html>

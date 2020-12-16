@@ -1,0 +1,102 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border: none;
+}
+.wrap{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    display: flex;
+}
+.arrowleft{
+    font-size: 30px;
+    color: rgb(119,119,119);
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.top h2{
+    line-height: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    flex: 1;
+}
+.wrap{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.wrap .collection{
+    width: 100%;
+    background-color: rgb(245,245,245);
+    display: flex;
+}
+.wrap .collection p{
+    font: 12px;
+    color: gray;
+    line-height: 40px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.goods{
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.goods ul{
+    width: 95%;
+    margin-left: 5%;
+    /* margin-top: 5%; */
+    display: flex;
+    flex-direction: column;
+}
+.goods ul li{
+    width: 100%;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid rgb(245,245,245);
+}
+.goods ul li img{
+    width: 25%;
+    /* height: 30%; */
+}
+.goods ul li div{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+.goods ul li div a{
+    display: block;
+}
+.goods ul li div a p{
+    padding: 7px;
+    overflow: hidden;/*内容超出后隐藏*/
+    
+    text-overflow: ellipsis;/* 超出内容显示为省略号*/
+    
+    white-space: nowrap;/*文本不进行换行*/
+}
+
+.goods ul li div .p2{
+    font-size: 12px;
+    color: gray;
+}
+.goods ul li div .p3{
+    font-weight: bold;
+    color: rgb(255,59,59);
+}

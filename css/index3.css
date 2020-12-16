@@ -1,0 +1,170 @@
+.ddxq{
+	background-color: #f5f5f5;
+}
+.top{
+	display: flex;
+	justify-content: center;
+	height: 40px;
+	position: relative;
+	background-color: white;
+	padding-top: 10px;
+}
+.top h2{
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.top img{
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 2px;
+}
+.fk{
+	height: 100px;
+	border: 1px solid red;
+	background-image: linear-gradient(to right,#ff6f18 ,red);
+	position: relative;
+}
+.fk_1{
+	margin-top: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	color: white;
+}
+.fk_1 h1{
+	font-size: 20px;
+}
+.tp img{
+	position: absolute;
+	right: 20px;
+	width: 70px;
+	height: 70px;
+	top: 15px;
+}
+.shr{
+	position: relative;
+	height: 100px;
+	background-color: white;
+}
+.shr img{
+	position: relative;
+	height: 25px;
+	width: 25px;
+	top: 50px;
+	left: 5px;
+}
+.zxm{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: -10px;
+}
+.dz{
+	margin-left: 40px;
+	color: #7E8C8D;
+	margin-top: 10px;
+}
+.shangpin{
+	margin-top: 10px;
+	display: flex;
+	position: relative;
+	padding-bottom: 10px;
+	background-color: white;
+}
+.tp1{
+	width: 200px;
+	margin-left: 2%;
+	flex-grow: 0;
+}
+.tp3{
+	width: 150px;
+	height: 150px;	
+}
+.js{
+	width: 40%;
+	margin-left: -10%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.js h4{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.jg{
+
+	height: 20px;
+	top: 60px;
+	position: absolute;
+	right: 20px;
+}
+.yunfei1{
+	display: flex;
+	justify-content: space-between;
+	padding:10px;
+	background-color: white;
+	border-bottom: 1px solid #7E8C8D;
+	color: #7E8C8D;
+}
+.sjfk{
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.sjfk h4{
+	font-size: 18px;
+	color: #7E8C8D;
+}
+.sjfk p{
+	font-size: 18px;
+	font-weight: 600;
+	color: red;
+}
+.ddhb{
+	color: #7E8C8D;
+	background-color: white;
+	padding-top: 10px;
+}
+.ddhb p{
+	padding: 10px;
+}
+.bottom{
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.qxdd{
+	height: 50px;
+	border-radius:20px;
+	border: 1px solid #7E8C8D;
+	/* width: 25%; */
+	text-align: center;
+	line-height: 50px;
+	width: 100px;
+}
+.fk_2{
+	height: 50px;
+	border-radius:20px;
+	border: 1px solid red;
+	/* width: 25%; */
+	text-align: center;
+	line-height: 50px;
+	width: 100px;
+	color: red;
+}
+.qxdd_1{
+	margin-right: 5%;
+}
+.fkbox{
+	margin-left: 5%;
+}
+.fk_2 a{
+	color: #000000;
+}

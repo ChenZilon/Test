@@ -1,0 +1,208 @@
+@media screen and (min-width:420px) {
+	html{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:419px) {
+	html{
+		font-size: 12px;
+	}
+}
+
+	.swap{
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 60px;
+	}
+	.top{
+		
+		display: flex;
+		justify-content: end;
+		text-align: center;
+		border-bottom: 1px solid aqua;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.top h1{
+		padding-left: 100px;
+		flex: 1;
+		font-size: 1.6rem;
+		/* text-align: center; */
+	}
+	
+	.searchbox{
+		width: 100%;
+		flex: 0;
+		position: relative;
+	}
+	
+	.searchbox input{
+		display: block;
+		/* font-size: 1rem; */
+		width: 100px;
+		/* width: 10%; */
+		border: none;
+	}
+	
+	.searchbox span{
+		position: absolute;
+		top: 0;
+		right: 10px;
+		font-size: 1.6rem;
+	}
+	
+	.middlebox{
+		display: flex;
+		margin-left: 40px;
+		margin-right: 40px;
+		/* justify-content: end; */
+		/* justify-content: space-between; */
+	}
+	
+	.left_aside{
+		width: 20%;
+		/* flex: 0; */
+		/* position: fixed; */
+		/* width: 25%; */
+		border-right: 1px solid aqua;
+	}
+	
+	/* .left_aside ul{
+		display: flex;
+		flex-direction: column;
+	} */
+	
+	.left_aside ul li{
+		text-align: center;
+		line-height: 60px;
+		height: 60px;
+		margin-top: 12px;
+		border-bottom: 1px solid aqua;
+		font-size: 1rem;
+		/* background-color: #f5f5f5; */
+	}
+	
+	.left_aside ul li:hover{
+		background-color: #f0f0f0;
+		border-right:3px solid #fe231d;
+	}
+	
+	.left_aside ul li:first-child{
+		background-color: #f0f0f0;
+		border-right:3px solid #fe231d;
+	}
+	
+	.goods{
+		float: right;
+		/* width: 72%; */
+		margin-top: 10px;
+		margin-left: 10px;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.goods_banner img{
+		width: 100%;
+	}
+	.goodsbox_tittle{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	
+	.goodsbox_tittle h3{
+		font-size: 1.2rem;
+	}
+	
+	.goodsbox_mods{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		
+		line-height: 40px;
+		margin-top: 40px;
+		/* border: 1px solid black; */
+	}
+	
+	.goodsbox_mods .goodsbox_mods_items{
+		text-align: center;
+		width: 30%;
+		/* border: 1px solid black; */
+		/* position: relative; */
+		padding-top: 40px;
+	}
+	
+	.goodsbox_mods_items a{
+		width: 64px;
+		position: relative;
+		display: inline-block;
+		font-size: 1rem;
+		/* display: block; */
+		/* width: 70%; */
+		/* margin-top:0 auto; */
+	}
+	
+	.goodsbox_mods_items span{
+		position: absolute;
+		top: -30px;
+		left: 20px;
+		color: orangered;
+		font-size: 30px;
+	}
+	.footer-nav{
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		box-shadow: 0 10px 30px;
+		color: #666666;
+		background-color: white;
+	}
+	.footer-nav ul{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.footer-nav ul li a{
+		color: gray;
+		text-decoration: none;
+	}
+	.footer-nav ul li{
+		flex: 1;
+		color: #ccc;
+		margin: 10px 0;
+		font-size: 15px;
+	}
+	.footer-navbox{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.footer-nav .icon-gowuche{
+		font-size: 20px;
+		color: #ccc;
+	}
+	.footer-nav .icon-shoye{
+		font-size: 20px;
+		color: #ccc;
+	}
+	.footer-nav .icon-leimupinleifenleileibie{
+		font-size: 20px;
+		color: red;
+	}
+	.footer-nav .icon-wd{
+		font-size: 20px;
+		color: #ccc;
+	}
+	#font-red{
+		color: red;
+	}
+
+
+
+

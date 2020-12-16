@@ -1,0 +1,260 @@
+.swap{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 90px;
+}
+
+.top_goods_images{
+	width: 92%;
+	position: relative;
+	margin-left: 4%;
+	position: relative;
+	
+}
+
+.top_goods_images a img{
+	width: 100%;
+	height: 100%;
+	filter: brightness(50%);
+}
+
+.image_number{
+	text-align: center;
+	width: 15%;
+	height: 30px;
+	/* height: 8%; */
+	line-height: 30px;
+	background-color: #959697;
+	position: absolute;
+	bottom: 5%;
+	right: 3%;
+	border-radius: 30px 30px 30px 30px;
+	color: white;
+}
+
+.top_imagesbox{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.top_imagesbox ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	/* border: 1px solid black; */
+}
+
+.top_imagesbox ul li{
+	/* width: 30%; */
+	/* border: 1px solid black; */
+	flex-shrink: 1;
+	/* height: 120px; */
+	margin-top: 10%;
+}
+
+.top_imagesbox ul li img{
+	width: 100%;
+	/* height: 120px; */
+}
+
+.top_imagesbox ul li:first-child{
+	/* padding-top: 20px; */
+	width: 20%;
+	flex-grow: 1;
+}
+
+.top_imagesbox ul li:nth-child(2){
+	margin-left: 5%;
+	width: 40%;
+	flex-grow: 2;
+}
+
+.top_imagesbox ul li:last-child{
+	width: 20%;
+	flex-grow: 1;
+	/* padding-top: 20px; */
+	margin-left: 5%;
+}
+
+.goods_price_mation{
+	margin-top: 8%;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+	/* display: flex; */
+	line-height: 30px;
+	flex-direction: column;
+}
+
+.goods_price_mation p:first-child{
+	color: red;
+	font-size: 30px;
+}
+
+.goods_price_mation p~p{
+	color: cadetblue;
+}
+
+.goods_price_mation p span{
+	color: black;
+}
+
+.goods_style{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.goods_style>div{
+	margin-top: 20px;
+}
+
+.goods_type_tittle{
+	width: 78px;
+	padding-left: 5%;
+	margin-bottom: 5%;
+	text-align: right;
+	color: cadetblue;
+	font-size: 1.125rem;
+}
+
+
+.corlor_type_box ul{
+	display: flex;
+	/* justify-content: end; */
+	justify-content: space-around;
+}
+
+
+.corlor_type_box ul li{
+	/* color: cadetblue; */
+	/* margin-right: 2%; */
+	/* border: 1px solid cadetblue; */
+	width: 100px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+	font-size: 1rem;
+}
+
+.goods_style input[type="radio"]{
+	
+	border: none;
+	appearance: none;
+	/* border: 1px solid black; */
+	width: 100%;
+	height: 30px;
+	border-radius: 15px;
+	border: 1px solid cadetblue;
+	/* line-height: 30px; */
+	cursor: pointer;
+}
+
+.goods_style input[type="radio"]:hover{
+	background-color: red;
+	border: none;
+	border: 1px solid aqua;
+}
+
+
+.goods_style ul li span{
+	position: absolute;
+	width: 40px;
+	top: 8%;
+	right: 20%;
+}
+
+.goods_style ul li:hover span{
+	color: white;
+}
+
+
+.goods_number{
+	position: relative;
+}
+
+.goods_number .corlor_type_box{
+	position: absolute;
+	border: 1px solid cadetblue;
+	width: 20%;
+	height: 28px;
+	line-height: 28px;
+	right: 2%;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.goods_number .corlor_type_box p{
+	width: 40%;
+	margin: auto auto;
+	text-align: center;
+	color: cadetblue;
+	border-left: cadetblue 1px solid;
+	border-right: cadetblue 1px solid;
+	position: relative;
+}
+
+.corlor_type_box span{
+	line-height: 30px;
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	font-size: 18px;
+	/* position: absolute; */
+	
+	/* border: 1px solid black; */
+	margin-left: 5%;
+	margin-right: 5%;
+	color: cadetblue;
+	cursor: pointer;
+}
+
+.footer{
+	margin-top: 60px;
+}
+
+.footer_car_shop{
+	display: flex;
+	width: 50%;
+	margin-left: 25%;
+	height: 40px;
+	text-align: center;
+	line-height: 2.5rem;
+}
+/* .footer_car input[type="submit"]{
+	background: none;
+	border: none;
+	appearance: none;
+	cursor: pointer;
+} */
+
+.footer_car{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #ff6f18;
+	width: 50%;
+	/* border: 1px solid black; */
+}
+
+.footer input[type="submit"]{
+	background: none;
+	border: none;
+	appearance: none;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+}
+
+.footer_shop{
+	width: 50%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #fe231d;
+}
+

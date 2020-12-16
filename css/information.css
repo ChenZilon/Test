@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	background-color: rgb(245,245,245);
+}
+.information{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.information_top{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: white;
+}
+.information_top p{
+	font-size: 60px;
+	font-weight: bold;
+}
+.information_top a{
+	text-decoration: none;
+}
+
+.information_top .icon-arrowLeft{
+	position: absolute;
+	left: 5%;
+	top: 45px;
+	font-size: 60px;
+	color: #666666;
+}
+.notice{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.notice>p{
+	text-align: center;
+	margin: 40px 0;
+	font-size: 40px;
+	color: rgb(154,154,154);
+}
+.fahuo{
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	height: 300px;
+	padding: 0 40px;
+	background-color: white;
+	margin: 0 5%;
+	position: relative;
+}
+.fahuo>h3{
+	margin: 20px 0;
+	font-size: 50px;
+	color: black;
+}
+.fahuo>p:first-of-type{
+	font-size: 40px;
+	color: black;
+	margin: 5px 0;
+	font-family: "微软雅黑";
+}
+.fahuo>p:last-of-type{
+	font-size: 35px;
+	color: gray;
+	margin-top: 30px;
+}
+.redpoint{
+	position: relative;
+}
+.pointbox{
+	width: 15px;
+	height: 15px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 15px;
+	left: -25px;
+}
+.notice .icon-huoche{
+	position: absolute;
+	top: 70px;
+	right: 30px;
+	width: 100px;
+	text-align: center;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 110px;
+	box-shadow: 0px 5px 10px;
+	color: orange;
+	color: white;
+	font-size: 60px;
+	background: linear-gradient(to bottom right, rgb(255,184,80), rgb(255,121,37));
+}
+.notice .icon-jinbi{
+	position: absolute;
+	top: 70px;
+	right: 30px;
+	width: 100px;
+	text-align: center;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 110px;
+	box-shadow: 0px 5px 10px;
+	color: blue;
+	color: white;
+	font-size: 60px;
+	background: linear-gradient(to bottom right, rgb(79,200,255), rgb(47,143,254));
+}
+.notice .icon-shengyin{
+	position: absolute;
+	top: 70px;
+	right: 30px;
+	width: 100px;
+	text-align: center;
+	height: 100px;
+	border-radius: 50%;
+	line-height: 100px;
+	box-shadow: 0px 5px 10px;
+	color: red;
+	color: white;
+	font-size: 60px;
+	background: linear-gradient(to bottom right, rgb(255,108,138), rgb(255,75,112));
+}
